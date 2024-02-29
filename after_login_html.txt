@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="csrf-token" content="6fMSEatScTFzzlSiKD2FnEFIxo95gCpPdrj5j5aq">
+		<title>
+	SEARCHFUNDER	</title>
+	<!--favicon-->
+	<link rel="icon" 
+      type="image/png" 
+      href="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosmall.png">
+	<!-- Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' crossorigin="anonymous">
+	<link href='//fonts.googleapis.com/css?family=Montserrat:500,700' rel='stylesheet' type='text/css' crossorigin="anonymous">
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css' crossorigin="anonymous">
+	<link href='//fonts.googleapis.com/css?family=Lato:100,200,300' rel='stylesheet' type='text/css' crossorigin="anonymous">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" crossorigin="anonymous">
+	<!-- Fontawesome icons-->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+	<!-- UI Grid -->
+	<link rel="styleSheet" href="/css/vendor/ui-grid.css"/>
+	<!-- Datepicker-->
+	<link href="/css/vendor/bootstrap-datepicker.min.css?v14" rel="stylesheet">
+	<link href="/css/vendor/bootstrap-timepicker.min.css?v14" rel="stylesheet">
+	<!-- Tags -->
+	<link href="/css/vendor/bootstrap-tagsinput.css?v14" rel="stylesheet">
+	<!-- Multiselect-->
+	<link href="/css/vendor/bootstrap-multiselect.min.css?v14" rel="stylesheet">
+	<!-- Toggle switches-->
+	<link href="/css/vendor/toggle-switch.css" rel="stylesheet">
+	<!-- Hopscotch-->
+	<link href="/css/hopscotch.css" rel="stylesheet">
+	<!-- Croppic -->
+	<link rel="stylesheet" type="text/css" href="/css/croppic.css?v2" />	
+	<!-- Modals -->
+	<link rel='stylesheet' href='/css/greenmodals.css?v18'>
+	<!-- Algolia Search -->
+	<link rel='stylesheet' href='/css/algoliasearch.css?v9'>
+	<!-- Tombstones -->
+	<link rel='stylesheet' href='/css/tombstones.css?v14'>
+	<!-- Odometer -->
+	<link rel='stylesheet' href='/css/vendor/odometer-theme-default.css'>
+	<!-- Master stylesheet -->
+	<link href="/css/app.css?v130" rel="stylesheet">
+	<link rel='stylesheet' href='/css/thumbs.css?v18'>
+	<link href="/css/profilecard.css?v31" rel="stylesheet">
+	<link rel='stylesheet' href='/css/grid.css?v18'>
+	
+	<!-- Custom stylesheet -->
+		<link rel='stylesheet' href='/css/timeline.css?v34'>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- Scripts -->
+	<script>
+		$CDN = "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com";
+	</script>
+	<!-- Variables from controller-->
+		<script>
+		$auth_user_id = "54101";
+		$auth_user_role = "searcher";
+		$auth_user_img = "/img/profiles/p54101_24.jpg";
+	</script>
+		
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!--lodash-->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+	<!--cookies-->
+	<script src='/js/vendor/js.cookie.min.js'></script>
+	<script src="/js/sharing.js?v6"></script>
+	<!-- load momentJS (required for angular-moment) -->
+	<script src="/js/vendor/moment.min.js"></script>
+	<!-- lazyload -->
+	<script type='text/javascript' src='/js/vendor/lazyload.min.js'></script>
+		<!-- AngularJS -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-touch.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-sanitize.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
+	<!--scroll glue-->
+	<script src='/js/vendor/angular-scroll-glue.js'></script>
+	<!--hopscotch
+		-->
+		<!-- load angular-moment for getting datetimes in a relative fashion-->
+	<script src="/js/vendor/angular-moment.min.js"></script>
+	<!--deep blur for angular-->
+	<script src='/js/vendor/angular-deep-blur.js'></script>
+	<!-- pusher-angular -->
+	<script src="//cdn.jsdelivr.net/angular.pusher/latest/pusher-angular.min.js"></script>
+	<script src="//js.pusher.com/7.2.0/pusher.min.js"></script>
+	<!--initiate angular app-->
+	<script src="/js/angularpusher.js?v5"></script>
+	<!-- initiate angular for deals-->
+	<script src="/js/angulardeals.js?v3"></script>
+	<!-- initiate angular for articles-->
+	<script src="/js/angulararticles.js?v8"></script>
+	<!--charts-->
+	<script src="/js/vendor/Chart.min.js"></script>
+	<script src="/js/rendersentiments.js"></script>
+	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+	<script>
+		Stripe.setPublishableKey('pk_live_oK2lulPRARMo9RDKuEJuT2nc');
+	</script>
+	<script type='text/javascript' src='/js/jobs.js?v4'></script>
+	<script type='text/javascript' src='/js/files.js?v3'></script>
+		
+	<!--simple datepicker-->
+	<script src='/js/vendor/bootstrap-datepicker.js'></script>
+	<script src='/js/vendor/bootstrap-timepicker.min.js'></script>
+	<!--typeahead-->
+	<script src='/js/vendor/typeahead.bundle.min.js'></script>
+	<!--input masking-->
+	<script src='/js/vendor/jquery.mask.min.js'></script>
+	<!--autosizing for textareas-->
+	<script src='/js/vendor/autosize.min.js'></script>
+	<!--confirmation dialogs-->
+	<script src='/js/vendor/bootstrap-confirmation.js'></script>
+	<!--multiselect-->
+	<script src='/js/vendor/bootstrap-multiselect.js'></script>
+	<!--picture uploading-->
+	<script src="/js/vendor/croppic.js"></script>
+	<!--caret locating-->
+	<script src = "/js/vendor/jquery.caret.min.js"></script>
+	<!--uploader-->
+	<script src='/js/vendor/simpleajaxuploader.min.js?v14'></script>
+	<!--odometer-->
+	<script src='/js/vendor/odometer.min.js'></script>
+	<!--some sitewide functions for qol-->
+	<script src="/js/global.js?v139"></script>
+	<!--js for the main menu -->
+	<script src="/js/mainmenu.js?v5"></script>
+	<!--profile cards-->
+	<script src="/js/profilecard.js?v52"></script>
+	<script src = "/js/userarticles.js?v35"></script>
+	<!--squirrel advisor-->
+	<script src="/js/squirreladvisor.js?v22"></script>
+	<!--searchfund cards-->
+					<!--connecting-->
+	<script src="/js/connect.js?v26"></script>
+	<!--groups-->
+	<script src="/js/groups.js?v9"></script>
+	<!--questions-->
+	<script src="/js/questions.js"></script>
+	<!--events-->
+	<script src="/js/events.js"></script>
+	<!--surveys-->
+	<script src="/js/surveys.js"></script>
+	<!--deals-->
+	<script src="/js/deals.js?v9"></script>
+	<!--filtering-->
+	<script type='text/javascript' src='/js/userlist.js?v19'></script>
+	<!--initiate popovers-->
+	<script type='text/javascript' src='/js/initiatepopovers.js?v5'></script>
+	
+
+	
+						<!--popup for completing registration if user tries to do something while locked behind paywall-->
+			<script src="/js/unregistered.js?v2"></script>
+				<script type='text/javascript' src='/js/review.js?v16'></script>
+		<link rel='stylesheet' href='/css/review.css?v15'>
+		
+	<!--google maps-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx6Neq1aa6L0N-3yRnkxxiMsOxdRnEuMY&libraries=places"> </script>
+
+	
+	<!--creating users-->
+					<!-- Google Analytics-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-54642900-2', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body ng-app="AngularMain">
+			<nav class="navbar navbar-fixed-top main-navbar" style="min-height:57px;">
+	<div class = "container-fluid">
+		<div id="navbar-header" class="navbar-header bgcolor0" style="float:none;">
+
+							<div class = "row bgcolor0" style="border-bottom:1px solid #e0e0e0;">
+					<div class = "col-lg-3 hidden-md hidden-sm hidden-xs relative">
+						<a href = "/">
+						<div style="float:left;padding-right:15px;padding-top:5px;padding-bottom:5px;">
+							<img style="height:45px;" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosmall.png"/>
+						</div>
+						</a>
+						
+						<div style="width:auto;overflow:hidden;padding-top:8px;padding-bottom:5px;" class = "small-no-display relative" >
+							<input type="text" class = "algoliasearch unregistered thumb-search-input" placeholder = " &#xF002; search" data-searchresultlocation="#navbar-search-result" style="height:40px;padding-top:7px;padding-bottom:9px;border-radius:15px;background-color:#eeeeee;"/>
+								<div class = "link pabsolute searchclear hovercolor4" style="top:19px; right:10px; color:#cccccc;  font-size:13px;">
+									<i class="fa fa-times">
+									</i>
+								</div>
+						</div>
+						<div id="searchModal"  class="bgcolor0 hidden searchmodal thin-scrollbar searchModal">
+	<div class = "row">
+		<div class = "col-xs-12 text-right">
+			<span class="link searchclear color5">clear <i class = "fa fa-times"></i></span>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col-xs-12 searchresultcontainer">
+			<div class = "row">
+				<div class = "col-sm-12 font-family-black">
+					<span class = "label bgcolor2 color5 searchcategory link" data-searchcategory="all"> all </span> 
+					&nbsp; <span class = "label bgcolor5 color5 searchcategory link" data-searchcategory="users"> members </span>
+					&nbsp; <span class = "label bgcolor5 color5 searchcategory link" data-searchcategory="ibisworld"> ibisworld reports </span>
+					&nbsp; <span class = "label bgcolor5 color5 searchcategory link" data-searchcategory="bvr"> bvr sectors </span>
+					&nbsp; <span class = "label bgcolor5 color5 searchcategory link" data-searchcategory="articles"> posts </span>
+					&nbsp; <span class = "label bgcolor5 color5 searchcategory link" data-searchcategory="news"> news </span>
+				</div>
+			</div>
+			<div id = "searchResults">
+			</div>
+		</div>
+	</div>
+	<div class = "row searchcategorymessage">
+		<div class = "col-xs-12 text-center color5">
+			select category for more results
+		</div>
+	</div>
+</div>
+						<div id="searchModalCategoryBase"  contenteditable="false" class="bgcolor0 hidden thin-scrollbar searchmodalcategory" >
+	<div class = "row">
+		<div class = "col-xs-12 text-right color5 bgcolor5">
+			<span class="link searchclearcategory">clear <i class = "fa fa-times"></i></span>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col-sm-12 col-xs-12 border-grey searchresultcontainer text-left">
+			<div id = "searchResultsCategory" class="searchResultsCategory">
+			</div>
+		</div>
+	</div>
+</div>
+					</div>
+					<div class = "col-lg-6 col-md-8 col-sm-8 col-xs-3" style="padding-top:5px;">
+						<div class = "relative">
+							<a href = "/">
+								<div class="hidden-lg navbar-main-icon" style="padding-top:0px;">
+									<img class="hidden-lg" style="height:40px;vertical-align:baseline;padding-top:2px;" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosmall.png">
+								</div>
+							</a>
+							<div class="hidden-lg hidden-xs togglealgoliasearchsmall navbar-main-icon">
+								<i class="fa fa-search fa-fw navbar-icon"></i>
+								<div class="hidden-xs" style="font-size:10px;">
+									search
+								</div>
+							</div>
+															<div class="navbar-main-icon hidden-xs ajaxgreenmodal" data-modalurl="/registration/ajaxcompletemodal">
+									<i class="fa fa-globe fa-fw navbar-icon"></i>
+									<div style="font-size:10px;">
+										directory
+									</div>
+								</div>
+														<a href="/intern/joblistings">
+								<div class=" navbar-main-icon hidden-xs">
+									<i class="fa fa-briefcase fa-fw navbar-icon"></i>
+									<div style="font-size:10px;">
+										jobs
+									</div>
+								</div>
+							</a>
+							<a href="/deal/exchange">
+								<div class=" navbar-main-icon hidden-xs">
+									<i class="fa fa-folder-open fa-fw navbar-icon"></i>
+									<div style="font-size:10px;">
+										deals
+									</div>
+								</div>
+							</a>
+															<div class="navbar-main-icon hidden-xs ajaxgreenmodal" data-modalurl="/registration/ajaxcompletemodal">
+									<img src = "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/data-axle-grey.png" class="navbar-icon"/>
+									<div style="font-size:10px;">
+										companies
+									</div>
+								</div>
+																						<a href="/bvr/">
+									<div class=" navbar-main-icon hidden-xs">
+										<img src = "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/bvr-grey.png" style="width:35px;padding-bottom:7px;" class="navbar-icon"/>
+										<div style="font-size:10px;">
+											transactions
+										</div>
+									</div>
+								</a>
+														<a href="/ibisworld">
+								<div class="navbar-main-icon hidden-xs">
+									<img src = "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/ibisworld-grey.png" style="width:33px;" class="navbar-icon"/>
+									<div style="font-size:10px;">
+										industries
+									</div>
+								</div>
+							</a>
+						
+						</div>
+					</div>
+				
+					<div class = "col-lg-3 col-md-4 col-sm-4 col-xs-9 relative" style="padding-top:10px;">
+						<div class = "row">
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+							</div>
+							<div class="hidden-lg hidden-md hidden-sm col-xs-3 togglealgoliasearchsmall link color5 hovercolor2 text-center">
+								<i class="fa fa-search fa-fw navbar-icon"></i>
+							</div>
+							<!--NOTIFICATIONS-->
+							<div class="dropdown keep-open navbar-dropdown notification-dropdown col-lg-3 col-md-3 col-sm-4 col-xs-3">
+								<!--dropdown button-->
+									<span class="loadnavbarnotifications dropdown-toggle navbar-dropdown-toggle text-center color5 link hovercolor2" data-toggle="dropdown" role="button" aria-expanded="false">
+										<div>
+											<i class="fa fa-bell-o fa-fw navbar-icon"></i>
+											<div class="hidden-xs" style="font-size:10px;">
+												notifications
+											</div>
+										</div>
+									</span>
+								<!--dropdown menu-->	
+									<div class="dropdown-menu navbar-dropdown-menu navbar-dropdown-menu-left112 navbar-notification-dropdown thin-scrollbar pabsolute" style="right:0;left:auto;" role="menu">
+										
+										<div class = "row nomargin" style="padding-bottom:2px;">
+											<div class = "col-xs-10 text-center">
+												<span class = "font-size-tiny color5">
+												see:
+												</span>
+												<div class = "label label-default bgcolor2 loadnavbarnotifications" data-unread="0">
+													all 
+												</div>
+												&nbsp;
+												<div class = "label label-default bgcolor5 color5 link loadnavbarnotifications" data-unread="1">
+													unread
+												</div>
+												&nbsp;
+												<div class = "label label-default bgcolor5 color5 link notificationcheckedall">
+													clear all
+												</div>
+											</div>
+											<div class = "col-xs-2 text-right">
+												<i class = "fa fa-close font-size-tiny color5 hidden-lg hidden-md hidden-sm link pull-right close-dropdowns"></i>
+											</div>
+										</div>
+										<div id = "navbar-notification-container">
+											<div class = "text-center">
+												<img src= "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/loadcircle.gif"/>
+											</div>
+										</div>
+									</div>
+									<div class = "navbar-count navbar-notifications-count bgcolor2 color0">
+									</div>
+							</div>
+							<!--Messages-->
+							<div class="dropdown keep-open navbar-dropdown message-dropdown col-lg-3 col-md-3 col-sm-4 col-xs-3" >
+								<!--dropdown button-->
+									<span class="dropdown-toggle navbar-dropdown-toggle text-center color5 link hovercolor2 messages-dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+										<div>
+											<i class="fa fa-comments-o fa-fw navbar-icon"></i>
+											<div class="hidden-xs" style="font-size:10px;">
+												messages
+											</div>
+										</div>
+									</span>
+									<div class="dropdown-menu navbar-dropdown-menu navbar-dropdown-menu-left180 navbar-notification-dropdown thin-scrollbar pabsolute" style="right:0;left:auto;" id="navbar-messages"role="menu">
+										<div class = "row nomargin" style="padding-bottom:2px;">
+											<div class = "col-xs-6 text-center">
+												<span class = "font-size-tiny color5">
+												see:
+												</span>
+												<div class = "label label-default bgcolor2 loadnavbarmessages" data-unread="0">
+													all 
+												</div>
+												<div class = "label label-default bgcolor5 color5 link loadnavbarmessages" data-unread="1">
+													unread
+												</div>
+											</div>
+											<div class = "col-xs-6 text-center link">
+																							</div>
+										</div>
+										<div id = "navbar-chat-container">
+											<div class = "text-center">
+												<img src= "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/loadcircle.gif"/>
+											</div>
+										</div>
+									</div>
+									<div class = "navbar-count navbar-message-count bgcolor2 color0">
+									</div>
+							</div>
+							<!--end Messages-->
+							<!--main menu-->
+							<div class="dropdown navbar-dropdown col-lg-3 col-md-3 col-sm-4 col-xs-3">
+								<div class="clicktoggle color5 hovercolor2 link" data-toggle_target="#mainmenu">
+									<div class = "hidden-xs" style="padding-top:7px;">
+										<div class = "img-thumb-micro pull-left">
+											<img src = "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/profiles/p54101_24.jpg"/>
+										</div>
+										<i class="fa fa-caret-down color2 fa-fw" style="font-size:20px;"></i>
+									</div>
+									<div class = "hidden-lg hidden-md hidden-sm text-center">
+										<i class="fa fa-bars fa-fw navbar-icon"></i>
+									</div>
+								</div>
+																	<!--main menu-->
+																			<div id = "mainmenu" class = "bgcolor0 hidden font-family-black color5 navbar-dropdown-menu">
+	<div class ="pabsolute clickhide link" data-hide_target="#mainmenu" style="top:5px;right:5px;"><i class="fa fa-times fa-fw"></i></div>
+	<div class="clicktoggle link" data-toggle_target="#menu-jobs">
+		<i style="font-size:17px;" class = "fa fa-briefcase fa-fw"></i> jobs
+	</div>
+	
+	<div style="padding-left:27px;padding-bottom:5px;" id = "menu-jobs" class = "font-family-book hidden">
+		<div>
+			<a href="/intern/joblistings">
+				browse jobs
+			</a>
+		</div>
+		
+		<div>
+			<a href="/intern/joblistings/mine">
+				my job listings
+			</a>
+		</div>
+	</div>
+	<div class="clicktoggle link" data-toggle_target="#menu-dealflow">
+		<i style="font-size:17px;" class = "fa fa-folder-open fa-fw"></i> deals
+	</div>
+	
+	<div style="padding-left:27px;padding-bottom:5px;" id = "menu-dealflow" class = "font-family-book hidden">
+		<div>
+			<a href="/deal/mydeals">
+				my deals
+			</a>
+		</div>
+		<div>
+			<a href="/deal/exchange">
+				deal exchange
+			</a>
+		</div>
+	</div>
+	<div class="clicktoggle link" data-toggle_target="#menu-account">
+		<img class = "img-thumb-micro" src = "https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/profiles/p54101_24.jpg" style="margin-right:2px;"/> account 
+	</div>
+	
+	<div style="padding-left:27px;padding-bottom:5px;" id = "menu-account" class = "font-family-book hidden">
+		<div>
+			<a href="/network">
+				my network
+			</a>
+		</div>
+		
+		<div>
+			<a href="/article/myarticles">
+				my posts
+			</a>
+		</div>
+		
+				<div>
+			<a href="/user/editprofile/54101">
+				edit profile
+			</a>
+		</div>
+		
+		<div>
+			<a href="/registration/email/54101">
+				email preferences
+			</a>
+		</div>
+
+		<div>
+			<a href="/user/editprofile/54101#tabpage-free-access">
+				subscription
+			</a>
+		</div>
+
+	</div>
+	<div class="text-center border-top-grey" style="margin-top:10px;padding-top:10px;">
+		<a href="/auth/logout" class="color5 link">
+			sign out
+		</a>
+	</div>
+</div>																								</div>
+						</div>
+					</div>
+				</div>
+				<div class = "row" style="display:none;position:fixed;z-index:5;width:100%;" id="algoliasearchsmall">
+					<div class = "col-md-12 relative bgcolor0" style="padding-top:3px;padding-bottom:3px;border-bottom: 1px solid #cccccc;">
+						<input type="text" class = "algoliasearch unregistered thumb-search-input" placeholder = " &#xF002; search"/>
+						<div class = "link pabsolute searchclear togglealgoliasearchsmall" style="top:6px; right:20px; font-size:13px; color:#cccccc;">
+							<i class="fa fa-times">
+							</i>
+						</div>
+					</div>
+				</div>
+				<div class = "row">
+					<div id="navbar-search-result" class = "col-md-12">
+					</div>
+				</div>
+					</div>
+		<div id = "custom-nav">
+					</div>
+		<!--if theres any messages-->
+		<div class = "alert-message-container container font-family-black">
+					</div>
+	</div>
+</nav>			<div class = "navbar-spacer">
+	</div>
+	<div id = "preload" style= "display:none">
+	</div>
+	
+	<div id="free-access-display" >
+					<a id="free-access-label" href="/registration/complete" class="color5 font-family-medium link panel panel-default" style="padding:3px;border-top:0;">
+				Complete your registration!
+			</a>
+			</div>
+
+		<div id = "main-content" class = "content-wrapper" style = "min-height:90vh;">
+		<div class = "mainbody">
+	<div class="container">
+		<div class="row">
+			<div class = "col-lg-8 col-md-8 col-sm-12 col-xs-12" style="padding-top:30px;">
+				<div class="font-family-black link bgcolor0 quickpostheader border-grey" style="height:44px;">
+	<div class="quickpostheader pull-left bgcolor0" style="font-size:15px;padding:4px;">
+		<div class="font-family-medium" style="padding-left:8px;">
+			<div class="pull-left hidden-xs timeline-menu" style="padding-top:2px;">
+				<a href="/timeline" class=" link">
+					<img  class="img-thumb-micro" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosquare.png" title="your feed"/>  your feed
+				</a>
+			</div>	
+			<!--
+						-->
+			<div class="pull-left dropdown keep-open timeline-menu" style="padding-top:3px;">
+				<a href="#"  class=" link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+					<span class="hidden-lg hidden-md hidden-sm color5"><img  class="img-thumb-micro" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosquare.png" title="your feed"/> <i class = "fa fa-angle-down color2"></i></span>
+					<i class = "fa fa-angle-right color2 hidden-xs" style="margin-top:-3px;font-size:22px;"></i>
+				</a>
+				<div class="dropdown-menu" style="width:300px;" role="menu">
+					<div class = "hidden-lg hidden-md hidden-sm" style="padding-left:10px;padding-right:10px;padding-top:3px;padding-bottom:3px;">
+						<a href="/timeline" class=" link">
+							<img  class="img-thumb-micro" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosquare.png" title="your feed"/>  your feed
+						</a>
+					</div>
+					<!--
+										-->
+					<div style="padding-left:10px;padding-right:10px;padding-top:3px;padding-bottom:3px;">
+						<a href="/timeline/resources"  class=" link">
+							<img class="img-thumb-micro" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosmall.png"/>   how to search
+						</a>
+					</div>
+					<!--
+					<div style="padding-left:10px;padding-right:10px;padding-top:3px;padding-bottom:3px;">
+						<a href="/group/mygroups"  class=" link">
+							<img class="img-thumb-micro" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosmallg.png"/>   join groups
+						</a>
+					</div>
+					-->
+					<div style="padding-left:10px;padding-right:10px;padding-top:3px;padding-bottom:3px;">
+						<a href="/deal/exchange"  class=" link">
+							<img class="img-thumb-micro" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosmalld.png"/>   find deals
+						</a>
+					</div>
+					<div style="padding-left:10px;padding-right:10px;padding-top:3px;padding-bottom:3px;">
+						<a href="/intern/joblistings"  class=" link">
+							<img class="img-thumb-micro" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/logosmallj.png"/>   browse jobs
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "bgcolor0 clickshow clickhide quickpostheader pull-right" data-hide_target=".quickpostheader" data-show_target="#quickpostoptions" style="font-size:17px;padding:4px;">
+		<div class = "btn btn-success" style="font-size:14px;">
+			<span class = "hidden-xs">Make a </span>Post <i class="fa fa-paper-plane color0"></i>
+		</div>
+	</div>
+
+	</div>
+<div class = "col-xs-12 font-family-book">
+	<div id="quickpostoptions" class="row text-center bgcolor2 color0 border-grey hidden font-family-black">
+	<div data-modalurl="/article/ajaxquickpost/" style="padding-top:10px; padding-bottom:10px;" class="ajaxwhitemodal quickpost-item link color0 text-center  pointer clickhide clickshow padding5px" data-show_target=".quickpostheader"	 data-hide_target="#quickpostoptions">
+		POST
+	</div>
+	<div data-modalurl="/event/ajaxcreateevent" style="padding-top:10px; padding-bottom:10px;" class="ajaxgreenmodal quickpost-item link color0  text-center  pointer clickhide clickshow padding5px" data-show_target=".quickpostheader"	data-hide_target="#quickpostoptions">
+		EVENT
+	</div>
+	<div data-modalurl="/deal/adddealmodal" style="padding-top:10px; padding-bottom:10px;" class="ajaxgreenmodal quickpost-item link color0  text-center  pointer clickhide clickshow padding5px" data-show_target=".quickpostheader" data-hide_target="#quickpostoptions">
+		DEAL
+	</div>
+	<div data-modalurl="/intern/addjoblistingajax" style="padding-top:10px; padding-bottom:10px;" class="ajaxgreenmodal quickpost-item link color0  text-center  pointer clickhide clickshow padding5px" data-show_target=".quickpostheader" data-hide_target="#quickpostoptions">
+		JOB
+	</div>
+	<div style="padding-top:10px; padding-bottom:10px;" class="clickhide clickshow quickpost-item link color0 text-center padding5px" data-show_target=".quickpostheader" data-hide_target="#quickpostoptions">
+		<i class = "fa fa-times"></i>
+	</div>
+</div>
+
+</div>				<br>
+				<br>
+				<div id="articles-section" data-articlepage = "1">
+										<div id="articles-section-loading" class="text-center"> 
+						<img src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/loadcircle.gif">
+					</div>
+				</div>
+				<div id='articles-complete-registration' style="display:none;" class="text-center">
+					<div class = "row">
+													<a href="/registration/complete">
+								<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<span style="margin-top:50px;font-size:25px;padding-left:30px;padding-right:30px;" class="btn-success-square">+30069 more</span>
+									<div class = "color5 font-family-black" style = "margin-top:50px;">
+										Complete your registration to access all discussions. Click here.
+									</div>
+								</div>
+							</a>
+											</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+			<div class = "col-lg-4 col-md-4 hidden-sm hidden-xs">
+				<div class = "sticky" style = "position:relative;width:360px;">
+					<div id = "eventlist">
+					</div>
+					<div id = "carousel">
+					</div>
+					<br>
+					<div class="banner">
+					</div>
+										<br>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type='text/javascript' src='/js/unregistered.js?v2'></script>
+	</div>
+	<div id="fb-root"></div>
+		<div id = "footer-home">
+		<div class = "container">
+			<div class = "row text-center color5 font-size-tiny">
+				&copy; searchfunder 2023 &nbsp;&nbsp;<a class="color5" href="/legal">terms of service . privacy policy</a>
+			</div>
+		</div>
+	</div>
+	<br><br>
+		<!--if the user is not signed in, include the modals that let the user do so-->
+		
+		<!--any profile card popups get loaded here-->
+		<div id = "profilecontainer" style="display:none;">
+		</div>
+		<!--searchfund card popups-->
+		<div id = "searchfundcontainer" style="display:none;">
+		</div>
+		<!--any lists of users popups-->
+		<div id = "userlistcontainer" style="display:none;">
+		</div>
+		<!--any connector popups get loaded here-->
+		<div id = "connectcontainer" style="display:none;">
+		</div>
+
+		<div class = "bottom-spacer">
+							<link rel='stylesheet' href='/css/chatcontainer.css?v16'>
+<!--use a js engine to generate and append each chatbox to bottom of screen angular works nicely for this-->
+<!--from the controller we need to get the encrypted channel name-->
+<script type= "text/javascript">
+	$pusher_key = "8d6f1aab56d50ae8e610";
+	$pusher_cluster = "us2";
+	$notification_channel = "private-nu"+$auth_user_id+"u";
+	$chathome = false;
+</script>
+<!--main js for page-->
+<script type='text/javascript' src='/js/angularchatcontainer.js?v40'></script>
+<script type = 'text/ng-template' id = "chatpaneltemplate" src = "/html/chatpaneltemplate.html"></script>
+<div class="chat_userlist" ng-controller="OnlineController">
+
+</div>
+
+<div class="chat_container" ng-controller="ChatController" ng-style="{'width' : getwidth()}">
+	<div class="chat_collapsed thin-scrollbar">
+		<div class="link bgcolor4 text-center color0" ng-show="(messagecontainer | json) != '{}'" ng-click="closeall()" style="margin-bottom:5px;border-radius:50%;height:50px;width:50px;padding-top:5px;">
+			<i class="fa fa-times"></i>
+			<div class="font-family-black" style="font-size:15px;line-height:0.7;">all</div>
+		</div>
+		<div ng-repeat="(conversation_id, messages) in messagecontainer" ng-cloak>
+			<div class="link" ng-show="messages.minimized" ng-click="maximizeparties(conversation_id)" style="margin-bottom:5px;">
+				<img class="img-thumb-smaller" src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com[^[messages.img_thumb_url]^]"/>
+			</div>
+		</div>
+	</div>
+	<div id = "chat_container">
+		<div ng-repeat="(conversation_id, messages) in messagecontainer" ng-cloak style="order:[^[messages.initiated]^];-webkit-order:[^[messages.initiated]^];">
+		<form id = "formchat"  method="POST" ng-submit="sendmessage(conversation_id)">
+			<div class="chatdisplay" data-minimized="[^[messages.minimized]^]" data-conversation_id="[^[conversation_id]^]" ng-show="!messages.minimized">
+				<input type="hidden" name="_token" value="6fMSEatScTFzzlSiKD2FnEFIxo95gCpPdrj5j5aq">
+				<div class="chat_panel" data-content = "chat[^[messages.user_id_with]^]">
+					<div class="chat_toppad" ng-show="messages.minimized">
+					</div>
+					<div class="chat_heading color0 bgcolor4 link">
+						<span class = "getparticipants" data-conversation_id="[^[conversation_id]^]">
+							<span ng-if="messages.conversationname.length>18" class="color0 bgcolor4 link font-family-black" style = "font-size:10px;">[^[messages.conversationname]^]</span>
+							<span ng-if="messages.conversationname.length<=18" class="color0 bgcolor4 link font-family-black">[^[messages.conversationname]^]</span> &nbsp;
+						</span>
+						<div class="btn-group pull-right">
+															<span ng-hide="messages.minimized" ng-click="minimizeparties(conversation_id)" class="link color0 hovercolor2">
+									<i class = "fa fa-window-minimize fa-fw"></i>
+								</span>
+								<span ng-click="removeparties(conversation_id)" class="link color0 hovercolor2">
+									<i class = "fa fa-times fa-fw"></i>
+								</span>
+						</div>
+					</div>
+					<div id = "chat[^[conversation_id]^]" class="chatmessagesbody" data-conversation_id = "[^[conversation_id]^]" ng-hide="messages.minimized" style="display:flex; flex-direction:column;height:270px;">
+						<div class="panel-body chat-panel-body bgcolor0 thin-scrollbar" style="flex:1;width:100%;"scroll-glue>
+							<ul class="chat">
+								<div>
+									<div ng-repeat="message in messages.messagecontent" class="clearfix">
+										<!--Incoming messages-->
+										<li ng-if="message.user_id_from != user_id" class = "chat_row">
+											<div class = "row">
+												<div class="col-md-2 col-sm-2 col-xs-2 nopadding text-center">
+													<img ng-src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com[^[message.user_avatar_url_from]^]" title="[^[message.user_firstname_from]^] [^[message.user_lastname_from]^]" class="chat_img_from link toggleprofilecard" data-user_id="[^[message.user_id_from]^]"/>
+												</div>
+												<div class="chat-body col-md-9 col-sm-9 col-xs-9">
+													<div class = "pull-left chat_content chat_content_left">
+														<small class="text-muted">
+															<span class="glyphicon glyphicon-time"></span>
+															<span data-time="message.time" am-time-ago="message.time"></span>
+														</small><br>
+														<span style="white-space:pre-wrap;" ng-bind-html='message.content | chatFilter'></span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<!--Outgoing messages-->
+										<li ng-if="message.user_id_from == user_id" class = "chat_row">
+											<div class = "row">
+												<div class="chat-body col-md-9 col-md-offset-3">
+													<div class = "pull-right chat_content chat_content_right">
+														<small class="text-muted">
+															<span class="glyphicon glyphicon-time"></span>
+															<span data-time="message.time" am-time-ago="message.time"></span>
+														</small><br>
+														<span style="white-space:pre-wrap;" ng-bind-html='message.content | chatFilter'></span>
+													</div>
+												</div>
+											</div>
+										</li>
+										
+									</div>
+									<div class = "chat_currently_typing color5" style="display:none;margin-top:5px;padding-left:10px;" data-conversation_id="[^[conversation_id]^]">
+										<img title="" style="max-width:20px; border-radius:50%;"class="chat_typing_img"/> &nbsp;&nbsp;<img src="https://55550cf88fb9105859d2-ecc273435fde99d2e690dfef78341117.ssl.cf5.rackcdn.com/img/ellipsis.gif" style="padding-bottom:0px;">
+									</div>
+								</div>
+							</ul>
+						</div>
+						<div class="chat-panel-footer bgcolor0 relative" style="flex:0 0 57px;">
+
+							<div id="input-message" data-conversation_id="[^[conversation_id]^]" ng-disabled="messages.disabled" type="text" class=" thin-scrollbar chat-input input-sm usertypeaheadchat" ng-model="messages.tosend" data-focused ="[^[messages.focused]^]"sync-focus-with="messages.focused" contenteditable = "[^[!messages.disabled]^]" style="overflow-y:auto;max-height:107px;min-height:35px;"></div>
+							<button title = "(cntrl+enter)" class="btn btn-sm chat_btn" id="btn-chat">
+									<i class="fa fa-paper-plane"></i> </button>
+							<div class="chat_send_file ajaxgreenmodal link" data-modalurl="/file/ajaxsharefilesmodal/[^[conversation_id]^]" title="send file"><i class="fa fa-paperclip"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		</div>
+	</div>
+</div>
+
+						<div ng-controller ="DealController">
+			</div>
+			<div ng-controller ="ArticleController">
+			</div>
+		</div>
+		<!--The Basic Modal Shell - green -->
+
+<div class="modal fade" id="greenModalWide" tabindex="-1" role="dialog" aria-labelledby="greenModalWideLabel" aria-hidden="true"  data-keyboard="false" data-backdrop="static">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content green-background color0">			
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class = "fa fa-close"></i></button>
+			<div id="greenModalWideContainer">
+			</div>
+		</div><!--/.modal-content-->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->	
+	<!--The Basic Modal Shell - White -->
+
+<div class="modal fade" id="whiteModal" tabindex="-1" role="dialog" aria-labelledby="whiteModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content white-background bgcolor0">
+			<button id="whiteModalX" type="button" style=" z-index: 5000;" class="close" data-dismiss="modal" aria-hidden="true"><i class = "fa fa-close"></i></button>
+			<div id="whiteModalContainer">
+			</div>
+			<br>
+		</div><!--/.modal-content-->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->	
+	<!--The Basic Modal Shell - green -->
+
+<div class="modal fade" id="greenModal" tabindex="-1" role="dialog" aria-labelledby="greenModalLabel" aria-hidden="true"  data-keyboard="false" data-backdrop="static">
+	<div class="modal-dialog">
+		<div class="modal-content green-background color0">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class = "fa fa-close"></i></button>
+			<div id="greenModalContainer">
+			</div>
+		</div><!--/.modal-content-->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->	
+	<!--The Decoy Modal Shell - Decoy -->
+<div class="modal" id="decoyModal" tabindex="-1" role="dialog" style="opacity:0 !important;">
+</div>
+	<!--The Basic Modal Shell cannot be dismissed- green -->
+
+<div class="modal fade" id="greenModalNoDismiss" tabindex="-1" role="dialog" aria-labelledby="greenModalLabel" aria-hidden="true"  data-keyboard="false" data-backdrop="static">
+	<div class="modal-dialog">
+		<div class="modal-content green-background color0">
+			<div id="greenModalNoDismissContainer">
+			</div>
+		</div><!--/.modal-content-->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->	
+	<!--check if there are any automatic modals to be initiated-->
+		<!--check if there are any initclick-->
+		<!--searchers have additional functionality-->
+						<script type='text/javascript' src='/js/addusermodal.js?v2'></script>
+			<script type='text/javascript' src='/js/editusermodal.js?v2'></script>
+					
+	<script type='text/javascript' src='/js/listevents.js?v4'></script>
+	<script type='text/javascript' src='/js/carousel.js?v3'></script>	
+	<script type='text/javascript' src='/js/articles.js?v31'></script>
+	<script type='text/javascript' src='/js/banner.js?v7'></script>
+	<script type='text/javascript' src='/js/timelinelimited.js'></script>
+</body>
+</html>

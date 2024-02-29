@@ -1,0 +1,52 @@
+                                                    Omkar Patil
+    +1516-923-0156                              Liberty Avenue, Jersey City, NJ 07307           opatil@stevens.edu
+
+EDUCATION
+Stevens Institute of Technology, Hoboken, NJ                                                Expected May 2024
+Master of Science in Computer Engineering CGPA: 3.91/4
+Related Courses: Applied Data structures & Algorithm, Engineering Programming Python, Applied Modelling and
+Optimization, Data Acquisition Modelling and Analysis for Big Data Analytics, Deep Learning
+
+SKILLS
+•   Programming Languages: C++, C, Python, XML, HTML, JavaScript, TypeScript, CSS, JSON, Java
+•   Database Technologies: MSSQL, MongoDB, Node, Express NOSQL, SQL Server Management Studio
+•   Web technologies: Docker, AWS (Amazon Web Services), Angular, React, Node, Express, MongoDB, d3.js, Git
+•   Machine Learning: Pytorch , TensorFlow, NLP, LLM Optimization, Data Modelling and Graphing
+
+PROFESSIONAL EXPERIENCE
+Full Stack Software Engineer (MERN Stack, LLM Optimization)                    TargetArc, NJ, USA 07/2023 - Present
+• Lead the end-to-end development of the Product namely Prompt Manager using the MERN (MongoDB, Express.js,
+    React, Node.js) stack, highlighting strong experience in both front-end and back-end technologies
+• Took charge of resolving critical containerization and Docker environment issues, providing reliable support to the
+    software development team, ensuring seamless project execution
+• Successfully designed and implemented over 15+ end-to-end features, orchestrating data flow from the database to
+    rendering on webpages, ensuring data consistency and scalability
+• Developed an "Evaluate" feature leveraging the GPT-4 model to generate contextually similar suggestions for input
+    prompts. This feature not only enhances the quality of output generation but also assesses the context strength and
+    emotional tone of both suggestions and original prompts
+• Implemented a "Run" feature, which efficiently interfaces with the GPT-4 model via API calls. This feature inputs
+    user prompts to the GPT-4 model and displays its intelligent, context-aware responses
+• Advanced the search functionality of our application by implementing a feature based on the Retrieval-Augmented
+    Generation (RAG) methodology
+Software Engineer (OpenCV, C++)                         Prescient Technologies, Pune MH/India 04/2021 - 07/2022
+• Collaborated in R & D team for development of a client-based Object Detection and Tracking Application
+• Achieved a test accuracy of 93% by training a Face Recognition model with VGG-16 architecture
+• Proposed best architecture suited for model by collating and analyzing data from 15 + research papers
+• Integrated above model in Object Detection and Tracking application
+• Deployed the model using a separate self-written end to end pipeline flow
+
+ACADEMIC / FREELANCE PROJECTS
+Neural Network Modeler + Trainer (Python)                     Stevens Institute of Technology 03/2023 – 05/2023
+• Created a lightweight Python framework that allows users to create, and train customized neural networks
+• The framework is scalable to build and train large neural network models without compromising stability
+• Provided flexibility for users to customize various hyper-parameters, such as the learning rate, the number of
+    epochs, batch size etc. Incorporates core algorithms to implement both forward and back-propagation
+• The framework supports visualization of the neural net and its loss evaluation along with dataset visualization
+Generative Bi-gram Language model (Python)                      Stevens Institute of Technology 09/2022 – 10/2022
+• Developed a custom transformer architecture “block by block” from the ground up using PyTorch’s tensor
+    manipulations and neural network development API functions
+• Demonstrated proficiency in model composition and integration by integrating this architecture into a bigram LM
+Stevens SmartQuery: AI-Enhanced FAQ Assistant                   Stevens Institute of Technology 09/2022 – 12/2022
+• Lead the creation of an AI FAQ Chatbot at Stevens using the RAG framework and Large Language Models
+• This chatbot transforms the website experience by offering instant, context-aware natural language response to
+    user queries, leveraging a comprehensive and proprietary FAQ dataset of the university

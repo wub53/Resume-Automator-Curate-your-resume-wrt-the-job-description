@@ -1,0 +1,41 @@
+                                                       Omkar Patil
+    +1516-923-0156                              Liberty Avenue, Jersey City, NJ 07307           opatil@stevens.edu
+
+EDUCATION
+Stevens Institute of Technology, Hoboken, NJ                                                Expected May 2024
+Master of Science in Computer Engineering CGPA: 3.91/4
+Related Courses: Applied Data structures & Algorithm, Engineering Programming Python, Applied Modelling and
+Optimization, Language Models, Generative AI, Data Acquisition Modelling and Analysis for Big Data Analytics, Deep Learning
+
+SKILLS
+•   Programming Languages: C++, C, Python, XML, HTML, JavaScript, TypeScript, Golang, CSS, JSON, Java
+•   Database Technologies: MSSQL, MongoDB, Node, Express NOSQL, SQL Server Management Studio
+•   Web technologies: Docker, Kubernetes, AWS (Amazon Web Services), Angular, React, Node, Express, MongoDB, d3.js, Git
+•   Machine Learning: Pytorch, TensorFlow, NLP, LLM Optimization, Data Modelling and Graphing
+
+PROFESSIONAL EXPERIENCE
+Generative AI Engineer/ Full Stack Software Engineer (MERN Stack, LLM Optimization)                    TargetArc, NJ, USA 07/2023 - Present
+• Implemented large-scale AI/ML systems for Generative AI research using Pytorch and TensorFlow frameworks for robust and scalable solutions
+• Led the end-to-end product development using MERN stack and Generative AI technologies, translating business requirements into technical specifications
+• Architected innovative control and sandboxing systems for AI research, deploying high performance AI/ML systems
+• Demonstrated proficiency in Generative AI technologies such as GPT-4 through developing features that improve productivity and drive operational efficiencies
+• Spearheaded the design and launch of LangChain, contributing to the project while also using its capabilities for Generative AI initiatives
+Software Engineer (OpenCV, C++)                         Prescient Technologies, Pune MH/India 04/2021 - 07/2022
+• Collaborated in R & D team for development of a client-based Object Detection and Tracking Application
+• Achieved a test accuracy of 93% by training a Face Recognition model with VGG-16 architecture
+• Proposed best architecture suited for model by collating and analyzing data from 15 + research papers
+• Integrated above model in Object Detection and Tracking application
+• Deployed the model using a separate end to end pipeline flow
+
+ACADEMIC / FREELANCE PROJECTS
+Generative AI and Language Models Engineer                Stevens Institute of Technology 03/2023 – 05/2023
+• Developed strategically engineered solutions for AI and LLMs, leading to advancements in Generative AI and Language Models
+• Pampered a product-focused approach, building scalable, easy-to-use AI and LLM solutions based on modern technology stacks using Kubernetes, Golang, and Python expertise
+• Conceived a Generative AI system, effectively using control systems and sandboxing techniques for AI research, attaining operational efficiencies and scalability
+• Showcased a deep understanding of LLMs and Transformers, through the design and management of complex and technically innovative AI systems
+Generative Bi-gram Language model (Python)                      Stevens Institute of Technology 09/2022 – 10/2022
+• Developed a custom transformer architecture from ground up utilizing PyTorch’s tensor manipulations, demonstrating understanding of language models and transformers
+• Integrated the customized architecture into a bigram Language Model as part of Stevens Generative AI initiative
+Stevens SmartQuery: AI-Enhanced FAQ Assistant using Generative AI  Stevens Institute of Technology 09/2022 – 12/2022
+• Lead creation of an AI FAQ Chatbot at Stevens using Generative AI techniques, improving the website user experience
+• Exhibited an in-depth understanding of vector stores and search algorithms, driving the efficient functioning of an AI-powered chatbot feature. 

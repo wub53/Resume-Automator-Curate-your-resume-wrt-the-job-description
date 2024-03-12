@@ -1,0 +1,1318 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ops Generative AI Software Engineer at Citi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Locations
+
+
+
+
+
+
+
+
+Locations
+
+
+Around the world, Citi has strategic locations where our employees go to work each day to support our core businesses and drive solutions for our clients.
+
+
+
+
+
+
+
+
+
+
+Overview
+
+
+Asia Pacific
+
+
+Europe, Middle East, and Africa
+
+
+Latin America
+
+
+North America
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Teams
+
+
+
+
+
+
+
+
+Teams
+
+
+We are a dynamic, global organization fueled by talented individuals with diverse perspectives who work in a vast range of roles.
+
+
+
+
+
+
+
+
+
+
+Overview
+
+
+Finance
+
+
+Technology
+
+
+Risk, Audit and Compliance
+
+
+Business Operations
+
+
+Retail, Sales and Marketing
+
+
+Customer Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Why Citi
+
+
+
+
+
+
+
+
+Why Citi
+
+
+Working at Citi is far more than just a job. A career with us means joining a team of more than 230,000 dedicated people from around the globe.
+
+
+
+
+
+
+
+
+
+
+Our Values
+
+
+Global Benefits
+
+
+Awards and Recognition
+
+
+
+
+
+
+Global Diversity and 
+Inclusion
+
+
+Citi Salutes
+
+
+
+
+
+
+About Us
+
+
+
+
+
+
+Our Impact
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Students & Graduates
+
+
+
+
+
+
+
+
+Students & Graduates
+
+
+Whether you're at the start of your career or looking to discover your next adventure, your story begins here.
+
+
+
+
+
+
+
+
+
+
+Overview
+
+
+Find a Program
+
+
+Find an Event
+
+
+Application Process
+
+
+
+
+
+
+
+
+
+
+Regional Opportunities
+
+
+Asia Pacific
+
+
+Japan
+
+
+Europe, the Middle East, & Africa
+
+
+Latin America
+
+
+Mexico
+
+
+North America
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Careers
+
+
+
+    	                    Menu
+        	                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search & Apply for Jobs
+
+
+Search
+
+
+
+
+
+
+Select a Location to Match your Resume with Open Roles
+
+
+Brazil
+
+
+Canada
+
+
+India
+
+
+Philippines
+
+
+Poland
+
+
+United Kingdom
+
+
+United States
+
+
+All Other Locations (Resume Match Currently Unavailable)
+
+
+
+
+Upload Resume & Match Me
+
+
+Search Jobs
+
+
+Upload Resume & Match Me
+
+
+
+
+You are now leaving Citi Careers portal, and entering a third-party site, operated on behalf of Citi.
+
+
+PROCEED
+
+
+
+
+
+
+Please select a location from the dropdown to proceed.
+
+
+
+
+
+
+
+
+
+
+Keyword Search
+
+
+
+
+
+
+
+
+Search Jobs
+
+
+Please select a location from the dropdown to proceed.
+
+
+
+
+
+
+
+
+
+
+Match jobs with Linkedin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ops Generative AI Software Engineer
+
+
+
+
+Job Req ID
+ 23709959
+
+
+Location(s)
+  New York, New York
+
+
+Job Type
+ On-Site/Resident
+
+
+Job Category
+ Technology
+ 
+
+
+
+
+
+
+Apply Now
+
+
+Save Job
+
+
+
+
+
+
+
+
+
+
+Are you looking for career move that will allow to take a strategic project zero to one
+? Then bring your experience in software engineering to Citi and seize the opportunity to explore AI and LLMs and their real-world applications at scale to improve productivity and drive operational efficiencies.
+We are seeking an innovative 
+Full Stack Engineering Lead
+ to join the Operations Engineering and Architecture group. This dedicated team is focused on driving Operations technology target state and delivering tangible reductions in process friction, errors, and manual effort. In this role you will be responsible for driving and contributing to the technical direction of our products and services, instilling engineering best practices into the team, and promoting cultural change across the organization. You will also work with Generative AI technologies, such as GPT-4, embedding their capabilities through prompt engineering in our systems.
+We are solely focused on the most modern technology and engineering disciplines such as generative AI, cloud, security, modern app stacks (with Golang, Gatekeeper), open source and the latest in the Kubernetes ecosystem.
+You will be joining us right at the beginning of our journey. We are seeking experienced software engineers who thrive in a results-driven environment, passionate about AI and LLM and who (just like us!) love programming.
+What you’ll do:
+Contribute to both, engineering and research
+Take a product-focused approach and build solutions that are robust, scalable, and easy to use
+Work in a fast-paced environment tackling cutting-edge problems by constantly testing and learning
+Pair programming for our products, be lean in your approach and remove bureaucracy where you see it
+Deliver fast, iterating and pivot as you go, rather than defining the perfect solution upfront
+Develop foundational components and mature technology capabilities in AI and LLMs
+Drive adoption across the enterprise
+What we’ll need from you:
+Deep hands on knowledge of Kubernetes, developing backend platforms and engineering solutions that scale
+Fluency in at least two programming language, with preference for Python, Javascript/Typescript, Golang
+Experience designing control and sandboxing systems for AI research
+Pytorch, TensorFlow experience
+Experience maintaining and/or contributing to bug bounty and responsible disclosure programs
+Understanding of language models and transformers
+Rich understanding of vector stores and search algorithms
+Large-scale ETL development
+Direct engineering experience of high performance, large-scale AI/ML systems
+Have experience supporting fast-paced startup engineering teams
+Have used LangChain and even contributed to the project.
+As Generative AI is a relatively new and growing space, as a result, we ask that you share with us a specific AI engineering projects on LLMs that you’re proud of in your application. Ideally these projects should show off complex and clever architectures or a systematic evaluation of an LLM’s behavior.  
+-------------------------------------------------
+Job Family Group: 
+Technology
+-------------------------------------------------
+Job Family:
+Applications Development
+------------------------------------------------------
+Time Type:
+Full time
+------------------------------------------------------
+Primary Location:
+New York New York United States
+------------------------------------------------------
+Primary Location Salary Range:
+$142,320.00 - $213,480.00
+------------------------------------------------------
+Citi is an equal opportunity and affirmative action employer.
+Qualified applicants will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.
+Citigroup Inc. and its subsidiaries ("Citi”) invite all qualified interested applicants to apply for career opportunities. If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review 
+Accessibility at Citi
+.
+View the "
+EEO is the Law
+" poster. View the 
+EEO is the Law Supplement
+.
+View the 
+EEO Policy Statement
+.
+View the 
+Pay Transparency Posting
+
+
+
+
+
+
+
+
+
+
+Apply Now
+
+
+Save Job
+
+
+
+
+
+
+
+
+
+
+
+
+Share
+
+
+Email
+
+
+LinkedIn
+
+
+Facebook
+
+
+Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Join Infrastructure Lead Ashley for a day in the #LifeAtCiti
+
+
+Infrastructure Technology Lead Ashley shares more about tech at Citi, important skills for her role, and how her family has influenced her career.
+
+
+Learn More 
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Join Mainframe Manager Samuel for a day in the #LifeAtCiti
+
+
+Mainframe Manager Samuel shares what he likes most about working in Technology. Samuel and his team work in the Citi Technology Infrastructure Unit, which provides the critical technical foundation for Citi’s operations and is responsible for delivering reliable IT solutions.
+
+
+Learn More 
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ashley shares 3 tips for Java developers looking to grow their career
+
+
+“Be creative with your code.” Ashley, Infrastructure Technology Lead at Citi, shares 3 important tips for Java developers looking to grow their career.
+
+
+Learn More 
+>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Related Jobs
+
+
+
+
+
+
+Head of Design & UX, U.S. Personal Banking
+
+
+Irving, Texas, New York, New York
+
+
+
+
+Save this job
+
+
+
+
+
+
+Head of Design & UX, Services
+
+
+New York, New York
+
+
+
+
+Save this job
+
+
+
+
+
+
+Generative AI App Development VP
+
+
+New York, New York
+
+
+
+
+Save this job
+
+
+
+
+
+
+SVP Generative AI Common Platform Engineer
+
+
+New York, New York
+
+
+
+
+Save this job
+
+
+
+
+
+
+
+
+
+
+Featured Career Areas
+
+
+
+
+
+
+Technology
+
+
+
+
+
+
+Transformation
+
+
+
+
+
+
+Finance
+
+
+
+
+
+
+Risk Management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Saved Jobs
+
+
+You have no saved jobs
+
+
+
+
+
+
+
+
+
+
+Previously Viewed Jobs
+
+
+You have no viewed jobs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Facebook
+
+
+Twitter
+
+
+YouTube
+
+
+LinkedIn
+
+
+Glassdoor
+
+
+Instagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+
+
+Search & Apply
+
+
+Create/Manage Profile
+
+
+Internal Career Mobility
+
+
+Alumni
+
+
+
+
+
+
+Locations
+
+
+
+
+Overview
+
+
+Asia Pacific
+
+
+Europe, the Middle East, 
+and Africa
+
+
+Latin America
+
+
+North America
+
+
+
+
+
+
+Teams
+
+
+
+
+Overview
+
+
+Finance
+
+
+Technology
+
+
+Risk, Audit and 
+Compliance
+
+
+Business Operations
+
+
+Retail, Sales & Marketing
+
+
+Customer Service
+
+
+
+
+
+
+Why Citi
+
+
+
+
+Our Values
+
+
+Global Benefits
+
+
+Awards and Recognition
+
+
+Global Diversity and Inclusion
+
+
+Citi Salutes
+
+
+
+
+
+
+Students & Graduates
+
+
+
+
+Overview
+
+
+Find a Program
+
+
+Find an Event
+
+
+Application Process
+
+
+Regional Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+Terms
+
+
+Privacy
+
+
+Additional Terms
+
+
+Accessibility
+
+
+Cookie Policy
+
+
+Cookie Preferences
+
+
+Sitemap
+
+
+
+
+
+
+
+
+Facebook
+
+
+Twitter
+
+
+YouTube
+
+
+LinkedIn
+
+
+Glassdoor
+
+
+Instagram
+
+
+
+
+
+
+
+
+
+
+
+
+Citi is an equal opportunity and affirmative action employer.
+
+
+Qualified applicants will receive consideration without regard to race, sex/gender, pregnancy, gender identity or expression, color, creed, religion, national origin, nationality, citizenship or immigration status, age, physical or mental disability or medical condition, sexual and reproductive health decisions, genetic information, marital status (including domestic partnerships and civil unions), sexual orientation, culture, ancestry, familial or caregiver status, military status, veteran’s status, socioeconomic status, unemployment status, status as a victim of domestic violence, hairstyle and hair texture, height, weight, or any other basis prohibited by law.
+
+
+Citigroup Inc. and its subsidiaries ("Citi") invite all qualified interested applicants to apply for career opportunities. If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review 
+Accessibility at Citi
+.
+
+
+View the "
+EEOC Know Your Rights
+" poster
+ View the 
+EEO Policy Statement
+ 
+ View the 
+Pay Transparency Posting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

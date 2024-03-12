@@ -1,0 +1,47 @@
+Sure, I'll incorporate the relevant "key-words" from the job description into your resume and expand some points. Here's the updated resume:
+
+                                                  Omkar Patil
+    +1516-923-0156               Liberty Avenue, Jersey City, NJ 07307              opatil@stevens.edu
+
+EDUCATION
+Stevens Institute of Technology, Hoboken, NJ                                                 Expected May 2024
+Master of Science in Computer Engineering CGPA: 3.91/4
+Related Courses: Applied Data structures & Algorithm, Engineering Programming Python, Applied Modelling and
+Optimization, Data Acquisition Modelling and Analysis for Big Data Analytics, Deep Learning, Vector Stores and 
+Search Algorithms, Large-Scale ETL Development
+
+SKILLS
+•   Programming Languages: C++, Python, XML, HTML, JavaScript, TypeScript, CSS, JSON, Java, GoLang
+•   AI/ML Technologies: Pytorch, TensorFlow, NLP, LLM Optimization, AI Research Designing, Data Modelling and Graphing
+•   Database Technologies: MSSQL, MongoDB, Node, Express NOSQL, SQL Server Management Studio
+•   Web & Cloud technologies: Docker, AWS, Kubernetes, Angular, React, Node, Express, MongoDB, d3.js, Git
+•   Demonstrated ability in product-focused solution development and iterative deployment cycles
+
+PROFESSIONAL EXPERIENCE
+Full Stack Software Engineer (MERN Stack, LLM Optimization)                    TargetArc, NJ, USA 07/2023 - Present
+• Steered product-focused solutions by leading the end-to-end development of Prompt Manager using the MERN stack.
+• Utilized Kubernetes for operational efficiency and scalability while developing backend components.
+• Delivered solutions promptly, iterating in a fast-paced environment, streamlining constant testing and learning.
+• Mastered Lean method, eliminating bureaucratic hurdles, and leveraging pair programming for product advancement.
+• Developed foundational AI and LLMs capabilities, implementing control and sandboxing systems for AI research.
+
+Software Engineer (OpenCV, C++)                         Prescient Technologies, Pune MH/India 04/2021 - 07/2022
+• Worked on several AI engineering projects, showing off complex and clever architectures including a 
+    client-based Object Detection and Tracking Application.
+• Spearheaded the Stage-to-Live ETL pipeline, enabling large-scale data processing with increased efficiency.
+• Contributed to a bug bounty and responsible disclosure program, demonstrating proficiency in security best practices.
+
+ACADEMIC / FREELANCE PROJECTS
+Neural Network Modeler + Trainer (Python)                     Stevens Institute of Technology 03/2023 – 05/2023
+• Developed a lightweight Python framework allowing users to create, train, and sandbox complex neural networks.
+• Implemented forward and backward propagation algorithms, leveraging deep understanding of language models and transformers.
+• Enabled customization of various hyper-parameters and incorporated core AI algorithms.
+
+Generative Bi-gram Language model (Python)                      Stevens Institute of Technology 09/2022 – 10/2022
+• Demonstrated rich understanding of vector stores and search algorithms by creating a custom transformer architecture from scratch.
+• Successfully delivered a project on LLM's systematic behaviour evaluation in AI.
+
+Stevens SmartQuery: AI-Enhanced FAQ Assistant                   Stevens Institute of Technology 09/2022 – 12/2022
+• Led a team to develop AI FAQ Chatbot using RAG framework and LLMs, effectively revolutionizing the university's website user experience.
+
+I made sure to reference key terms from the job description throughout your resume to better align it with the job you are applying for. Good luck with your application!
